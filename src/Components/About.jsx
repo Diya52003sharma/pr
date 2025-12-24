@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faUtensils, faStore, faChartLine } from '@fortawesome/free-solid-svg-icons';
 import img1 from '../assets/img1.webp'
 import img2 from '../assets/img2.webp'
-import map from '../assets/map.jpg'
+// import map from '../assets/map.jpg'
 
 
-import video from '../assets/video.mp4'
+// import video from '../assets/video.mp4'
 export default function About()
 {
     return(
@@ -182,17 +182,18 @@ export default function About()
  </div>         </section>
  <hr />
  <section className="p-8">
-  <video
-    controls
-    autoPlay
-    muted
-    loop
-    className="w-full h-auto max-h-[400px] rounded-lg shadow-lg"
-  >
-    <source src={video} type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+  <div className="relative w-full   rounded-lg overflow-hidden shadow-lg">
+    <iframe
+      className="w-full h-70"
+      src="https://www.youtube.com/embed/5mGcL937xhc"
+      title="YouTube Shorts video"
+      frameBorder="0"
+      allow="autoplay; encrypted-media"
+      
+    ></iframe>
+  </div>
 </section>
+
 
 <section className="grid grid-cols-1 md:grid-cols-3 gap-4 p-10">
   {[img1, img2, img1].map((img, i) => (
@@ -227,7 +228,7 @@ export default function About()
   </div>
 <div className="w-full flex justify-center py-12 bg-white">
   <img
-    src={map}
+    src="https://t4.ftcdn.net/jpg/01/92/49/95/360_F_192499522_CIWxRvKRlBmxaEcsqJjgugqUpBZCJRDM.jpg"
     alt="World Map"
     className="max-w-6xl w-full object-contain"
   />
@@ -237,27 +238,28 @@ export default function About()
 
 
 <section className="w-full border shadow">
-  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-8 items-center">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-6 md:p-8 items-center">
     
     {/* LEFT TEXT */}
-    <div className="text-black font-serif font-bold text-3xl md:text-4xl">
+    <div className="text-black font-serif font-bold text-2xl md:text-3xl text-center md:text-left">
       Get Voucher Discount
     </div>
 
     {/* RIGHT FORM */}
-    <div className="flex gap-3 justify-start md:justify-end">
+    <div className="flex flex-col sm:flex-row gap-3 items-center md:justify-end">
       <input
         type="email"
         placeholder="Email Address"
-        className="border-2 border-slate-400 w-64 h-14 px-4 rounded focus:outline-none focus:border-amber-500"
+        className="border-2 border-slate-400 w-full sm:w-64 h-12 md:h-14 px-4 rounded focus:outline-none focus:border-amber-500"
       />
-      <button className="h-14 px-6 rounded bg-amber-500 hover:bg-amber-600 text-white font-semibold transition">
+      <button className="w-full sm:w-auto h-12 md:h-14 px-6 rounded bg-amber-500 hover:bg-amber-600 text-white font-semibold transition">
         GET VOUCHER
       </button>
     </div>
 
   </div>
 </section>
+
 <section className="py-20 bg-white">
   <div className="max-w-6xl mx-auto px-4">
     

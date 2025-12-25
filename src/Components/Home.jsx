@@ -5,7 +5,7 @@ export default function Home()
     return(
         <>
 
-  <section class="max-w-7xl mx-auto px-6 py-6">
+  <section class="w-full mx-auto  px-6 py-6">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
    
@@ -22,7 +22,7 @@ export default function Home()
 
         <p class="text-gray-500 mb-6 text-justify">
           Sed ut perspiciatis unde omnis iste natus error sit volupt
-          accusantium doloremque laudantium. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quam atque maiores!
+          accusantium doloremque laudantium. <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quam atque maiores!
         </p>
 
  

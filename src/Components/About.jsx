@@ -32,8 +32,8 @@ export default function About()
         <hr />
         <section className="px-12 py-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-4 ">
-            <div>
-                <img src={img1} alt="" />
+            <div >
+                <img src={img2} alt="" className="w-full sm:h-[400px] md:h-[550px]"  />
             </div>
             <div >
                 <span className="h-1  bg-blue-500 w-25 inline-block ">

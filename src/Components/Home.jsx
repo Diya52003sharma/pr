@@ -229,17 +229,17 @@ export default function Home()
                     <hr />
                     <div className="grid grid-cols-3 gap-2 mt-7">
                         <div>
-                            <div className="font-bold text-[40px] text-orange-400">25</div>
+                            <div className="font-bold text-sm lg:text-[40px] text-orange-400">25</div>
                             <div className="font-bold">Branch Place</div>
                             <div>Lorem, ipsum.</div>
                         </div>
                         <div>
-                            <div className="font-bold text-[40px] text-orange-400">136</div>
+                            <div className="font-bold text-sm lg:text-[40px] text-orange-400">136</div>
                             <div className="font-bold">Grill Tools</div>
                             <div>Lorem, ipsum.</div>
                         </div>
                         <div>
-                            <div className="font-bold text-[40px] text-orange-400">25K</div>
+                            <div className="font-bold text-sm lg:text-[40px] text-orange-400">25K</div>
                             <div className="font-bold">Daily Customer</div>
                             <div>Lorem, ipsum.</div>
                         </div>

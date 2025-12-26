@@ -1,6 +1,9 @@
 import React from "react"
 import  img1 from '../assets/img1.webp'
 import  img2 from '../assets/img2.webp'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+
 export default function Home()
 {
     return(
@@ -23,7 +26,8 @@ export default function Home()
 
         <p class="text-gray-500 mb-6 text-justify">
           Sed ut perspiciatis unde omnis iste natus error sit volupt
-          accusantium doloremque laudantium. <br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quam atque maiores!
+          accusantium doloremque laudantium. <br />Lorem ipsum dolor
+           sit, amet consectetur adipisicing elit. Consequatur quam atque maiores!
         </p>
 
  
@@ -38,7 +42,8 @@ export default function Home()
     
 <ul class="space-y-3 mb-8">
   <li class="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" 
+    viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         d="M5 13l4 4L19 7" />
     </svg>
@@ -46,7 +51,8 @@ export default function Home()
   </li>
 
   <li class="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5
+     text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         d="M5 13l4 4L19 7" />
     </svg>
@@ -54,7 +60,8 @@ export default function Home()
   </li>
 
   <li class="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5
+     text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         d="M5 13l4 4L19 7" />
     </svg>
@@ -70,7 +77,8 @@ export default function Home()
             placeholder="Email Address"
             class="border rounded-md px-4 py-3 w-full sm:w-64 focus:outline-none"
           />
-          <button class="bg-blue-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition">
+          <button class="bg-blue-600 text-white px-6 py-3 rounded-md 
+          font-semibold hover:bg-blue-700 transition">
             GET VOUCHER
           </button>
         </div>
@@ -81,7 +89,7 @@ export default function Home()
         <img
           src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
           alt="nature"
-          class=" w-full lg:h-[560px] object-cover md:h-[400px] h-400px "
+          class=" w-full `lg:h-[560px]` object-cover `md:h-[400px]` h-400px "
         />
 
        
@@ -109,17 +117,20 @@ export default function Home()
   <div className="absolute right-2 sm:right-8 md:right-16">
     <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14">
       {/* ORANGE */}
-      <div className="absolute top-0 left-2 sm:left-3 w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 bg-orange-400 rounded-xl rotate-12"></div>
+      <div className="absolute top-0 left-2 sm:left-3 w-5 h-5 sm:w-6 sm:h-6 
+      md:w-7 md:h-7 bg-orange-400 rounded-xl rotate-12"></div>
 
       {/* BLUE */}
-      <div className="absolute top-2 sm:top-3 left-0 w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 bg-teal-600 rounded-xl"></div>
+      <div className="absolute top-2 sm:top-3 left-0 w-5 h-5 sm:w-6 sm:h-6
+       md:w-7 md:h-7 bg-teal-600 rounded-xl"></div>
     </div>
   </div>
 
 </div>
   </section>
   <div className="px-8">
-    <p className="flex text-center  justify-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p className="flex text-center  justify-center ">Lorem ipsum dolor sit amet 
+      consectetur adipisicing elit.</p>
   </div>
 
   <section className="px-4 py-14 bg-white gap-6">
@@ -146,7 +157,8 @@ export default function Home()
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
 
-      <button className="bg-amber-500 hover:bg-amber-600 text-white text-sm px-6 py-3 rounded-lg font-semibold transition">
+      <button className="bg-amber-500 hover:bg-amber-600 text-white text-sm px-6 py-3
+       rounded-lg   font-semibold transition">
         LEARN MORE
       </button>
     </div>
@@ -169,7 +181,8 @@ export default function Home()
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
 
-      <button className="bg-amber-500 hover:bg-amber-600 text-white text-sm px-6 py-3 rounded-lg font-semibold transition">
+      <button className="bg-amber-500 hover:bg-amber-600 text-white text-sm px-6 
+      py-3 rounded-lg font-semibold transition">
         LEARN MORE
       </button>
     </div>
@@ -192,7 +205,8 @@ export default function Home()
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
 
-      <button className="bg-amber-500 hover:bg-amber-600 text-white text-sm px-6 py-3 rounded-lg font-semibold transition">
+      <button className="bg-amber-500 hover:bg-amber-600 text-white text-sm px-6 py-3 
+      rounded-lg font-semibold transition">
         LEARN MORE
       </button>
     </div>
@@ -200,46 +214,75 @@ export default function Home()
   </div>
 </section>
 <section className="p-6 w-full">
-    <img src={img1} alt="" />
+    <img src={img1} alt="" className="w-full sm:h-[200px] md:h-[300px]" />
 </section>
  <section className="px-12 py-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-4 ">
             <div >
-                <img src={img2} alt="" className="w-full sm:h-[400px] md:h-[550px]"  />
+                <img src={img2} alt="" className="w-full sm:h-[400px] md:h-[450px]"  />
             </div>
             <div >
                 <span className="h-1  bg-blue-500 w-25 inline-block ">
                 </span>
                 <span className="p-2 text-orange-400">ABOUT US</span>
                 <div>
-                    <h1 className="text-4xl font-bold mt-2 p-3 ">The Future BBQ <br />Resturdent Solution</h1>
-                    <div className="text-justify mt-3 text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ratione in dolorem provident! Quibusdam minima voluptatum aperiam corporis vitae aut quo illum.</div>
+                    <h1 className="text-4xl font-bold mt-2 p-3 ">The Future BBQ <br />
+                    Resturdent Solution</h1>
+                    <div className="text-justify mt-3 text-slate-500">
+                      Lorem ipsum dolor sit amet,  consectetur adipisicing elit
+                      . Enim ratione   dolorem provident! 
+                      Quibusdam minima voluptatum aperiam corporis vitae aut quo illum.</div>
                     <div className="grid grid-cols-2 text-slate-500 mt-5">
-                        <div>
-                            <div>Family Place BBQ</div>
-                            <div>BBQ Delivery Grill</div>
-                            <div>Private Table Resturdent</div>
-                        </div>
-                            <div>
-                                <div>Family Place BBQ</div>
-                            <div>BBQ Delivery Grill</div>
-                            <div>Private Table Resturdent</div>
+                        <div className="space-y-3 mt-5">
+                            <div className="flex items-center gap-3">
+                              <FontAwesomeIcon icon={faCheck} className="text-orange-400 text-sm" />
+                              <span className="text-sm sm:text-base">Family Place BBQ</span>
                             </div>
+
+                            <div className="flex items-center gap-3">
+                              <FontAwesomeIcon icon={faCheck} className="text-orange-400 text-sm" />
+                              <span className="text-sm sm:text-base">BBQ Delivery Grill</span>
+                            </div>
+
+                            <div className="flex items-center gap-3">
+                              <FontAwesomeIcon icon={faCheck} className="text-orange-400 text-sm" />
+                              <span className="text-sm sm:text-base">Private Table Restaurant</span>
+                            </div>
+                          </div>
+                          <div className="space-y-3 mt-5">
+                            <div className="flex items-center gap-3">
+                              <FontAwesomeIcon icon={faCheck} className="text-orange-400 text-sm" />
+                              <span className="text-sm sm:text-base">Family Place BBQ</span>
+                            </div>
+
+                            <div className="flex items-center gap-3">
+                              <FontAwesomeIcon icon={faCheck} className="text-orange-400 text-sm" />
+                              <span className="text-sm sm:text-base">BBQ Delivery Grill</span>
+                            </div>
+
+                            <div className="flex items-center gap-3">
+                              <FontAwesomeIcon icon={faCheck} className="text-orange-400 text-sm" />
+                              <span className="text-sm sm:text-base">Private Table Restaurant</span>
+                            </div>
+                          </div>
                     </div>
                     <hr />
                     <div className="grid grid-cols-3 gap-2 mt-7">
                         <div>
-                            <div className="font-bold text-sm lg:text-[40px] text-orange-400">25</div>
+                            <div className="font-bold text-sm lg:text-[30px]
+                             text-orange-400">25<sup className="text-slate-500">+</sup>K</div>
                             <div className="font-bold">Branch Place</div>
                             <div>Lorem, ipsum.</div>
                         </div>
                         <div>
-                            <div className="font-bold text-sm lg:text-[40px] text-orange-400">136</div>
+                            <div className="font-bold text-sm lg:text-[30px]
+                             text-orange-400">136<sup className="text-slate-500">+</sup>K</div>
                             <div className="font-bold">Grill Tools</div>
                             <div>Lorem, ipsum.</div>
                         </div>
                         <div>
-                            <div className="font-bold text-sm lg:text-[40px] text-orange-400">25K</div>
+                            <div className="font-bold text-sm lg:text-[30px] text-orange-400">
+                              25<sup className="text-slate-500">+</sup>K</div>
                             <div className="font-bold">Daily Customer</div>
                             <div>Lorem, ipsum.</div>
                         </div>

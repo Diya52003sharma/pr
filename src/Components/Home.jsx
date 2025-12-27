@@ -3,81 +3,82 @@ import  img1 from '../assets/img1.webp'
 import  img2 from '../assets/img2.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { FaCalendarCheck, FaUtensils, FaTruckFast } from "react-icons/fa6";
 
 export default function Home()
 {
     return(
         <>
 
-  <section class="w-full mx-auto  px-6 py-6">
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+  <section className="w-full mx-auto  px-6 py-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
    
       <div className="p-4">
        
-        <p class="text-sm tracking-widest text-orange-500 font-semibold">
+        <p className="text-sm tracking-widest text-orange-500 font-semibold">
           <span className="h-1 w-10 bg-blue-500 inline-block"></span> BBQ & GRILL RESTAURANT
         </p>
 
-        <h1 class="text-4xl md:text-5xl font-bold mb-6">
-          Eat BBQ With On <span class="text-orange-500 italic">Nice</span><br/>
-          <span class="text-orange-500 italic">Place</span> With Our Restaurant
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          Eat BBQ With On <span className="text-orange-500 italic">Nice</span><br/>
+          <span className="text-orange-500 italic">Place</span> With Our Restaurant
         </h1>
 
-        <p class="text-gray-500 mb-6 text-justify">
+        <p className="text-gray-500 mb-6 text-justify">
           Sed ut perspiciatis unde omnis iste natus error sit volupt
           accusantium doloremque laudantium. <br />Lorem ipsum dolor
            sit, amet consectetur adipisicing elit. Consequatur quam atque maiores!
         </p>
 
  
-        <div class="border-l-4 border-orange-500 pl-4 mb-6">
-          <p class="italic text-gray-600 text-justify">
+        <div className="border-l-4 border-orange-500 pl-4 mb-6">
+          <p className="italic text-gray-600 text-justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Lorem ipsum dolor sit amet consectetur.consectetur adipiscing elit.
           </p>
-          <p class="text-orange-500 font-semibold mt-2">JOHN DOE</p>
+          <p className="text-orange-500 font-semibold mt-2">JOHN DOE</p>
         </div>
 
     
-<ul class="space-y-3 mb-8">
-  <li class="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" 
+<ul className="space-y-3 mb-8">
+  <li className="flex items-center gap-3">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-orange-500" fill="none" 
     viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         d="M5 13l4 4L19 7" />
     </svg>
-    <span class="text-gray-600">Lorem ipsum dolor sit amet</span>
+    <span className="text-gray-600">Lorem ipsum dolor sit amet</span>
   </li>
 
-  <li class="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5
+  <li className="flex items-center gap-3">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5
      text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         d="M5 13l4 4L19 7" />
     </svg>
-    <span class="text-gray-600">Sed do eiusmod tempor</span>
+    <span className="text-gray-600">Sed do eiusmod tempor</span>
   </li>
 
-  <li class="flex items-center gap-3">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5
+  <li className="flex items-center gap-3">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5
      text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
         d="M5 13l4 4L19 7" />
     </svg>
-    <span class="text-gray-600">Ut enim ad minim veniam</span>
+    <span className="text-gray-600">Ut enim ad minim veniam</span>
   </li>
 </ul>
 
 
     
-        <div class="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col sm:flex-row gap-4">
           <input
             type="email"
             placeholder="Email Address"
-            class="border rounded-md px-4 py-3 w-full sm:w-64 focus:outline-none"
+            className="border rounded-md px-4 py-3 w-full sm:w-64 focus:outline-none"
           />
-          <button class="bg-blue-600 text-white px-6 py-3 rounded-md 
+          <button className="bg-blue-600 text-white px-6 py-3 rounded-md 
           font-semibold hover:bg-blue-700 transition">
             GET VOUCHER
           </button>
@@ -85,18 +86,18 @@ export default function Home()
       </div>
 
    
-      <div class="">
+      <div className="">
         <img
           src="https://images.unsplash.com/photo-1501785888041-af3ef285b470"
           alt="nature"
-          class=" w-full `lg:h-[560px]` object-cover `md:h-[400px]` h-400px "
+          className=" w-full `lg:h-[560px]` object-cover `md:h-[400px]` h-400px "
         />
 
        
-        <div class=" bottom-0 left-0 right-0 bg-[#4b8ea0] p-6 rounded-b-xl">
-          <h3 class="text-yellow-400 text-3xl font-bold mb-2">G</h3>
-          <p class="text-white font-semibold text-lg">4.8 Google Reviews</p>
-          <p class="text-white/80 text-sm">
+        <div className=" bottom-0 left-0 right-0 bg-[#4b8ea0] p-6 rounded-b-xl">
+          <h3 className="text-yellow-400 text-3xl font-bold mb-2">G</h3>
+          <p className="text-white font-semibold text-lg">4.8 Google Reviews</p>
+          <p className="text-white/80 text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
@@ -219,7 +220,7 @@ export default function Home()
  <section className="px-12 py-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 p-4 ">
             <div >
-                <img src={img2} alt="" className="w-full sm:h-[400px] md:h-[450px]"  />
+               <img src={img2} alt="" className="w-full sm:h-[400px] md:h-[450px] md:wd-full "  />
             </div>
             <div >
                 <span className="h-1  bg-blue-500 w-25 inline-block ">
@@ -291,7 +292,202 @@ export default function Home()
             </div>
         </div>
         </section>
+ 
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-4 gap-6">
+      
+      {/* LEFT CONTENT */}
+      <div>
+        <div className="p-10">
+          
+          <div>
+            
+            <span className="mb-1 h-0.5 bg-blue-500 w-24 inline-block"></span>
+          <span className="p-2 text-orange-400 ">
+            DELIVERY GRILL SERVICES
+          </span>
+          </div>
 
+          <h1 className="text-lg md:text-2xl lg:text-2xl font-bold mt-2">
+            Keep Stay We Deliver <br /> The Grill BBQ Tools
+          </h1>
+
+          <p className="text-gray-600 mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            ut eos! Quaerat ullam et numquam architecto voluptatibus.
+          </p>
+
+          {/* ITEM 1 */}
+          <div className="grid grid-cols-[60px_1fr] gap-4 shadow p-4 mb-3 rounded-lg mt-5">
+            <div className="flex items-center justify-center">
+              <span className="w-12 h-12 bg-orange-400 rounded-full flex items-center justify-center">
+                <FaCalendarCheck className="text-white text-xl" />
+              </span>
+            </div>
+
+            <div>
+              <h1 className="text-lg font-semibold font-serif">
+                Make a Reservation
+              </h1>
+              <p className="text-sm text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          {/* ITEM 2 */}
+          <div className="grid grid-cols-[60px_1fr] gap-4 shadow p-4 mb-3 rounded-lg">
+            <div className="flex items-center justify-center">
+              <span className="w-12 h-12 bg-orange-400 rounded-full flex items-center justify-center">
+                <FaUtensils className="text-white text-xl" />
+              </span>
+            </div>
+
+            <div>
+              <h1 className="text-lg font-semibold font-serif">
+                Fresh BBQ Foods
+              </h1>
+              <p className="text-sm text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          {/* ITEM 3 */}
+          <div className="grid grid-cols-[60px_1fr] gap-4 shadow p-4 mb-3 rounded-lg">
+            <div className="flex items-center justify-center">
+              <span className="w-12 h-12 bg-orange-400 rounded-full flex items-center justify-center">
+                <FaTruckFast className="text-white text-xl" />
+              </span>
+            </div>
+
+            <div>
+              <h1 className="text-lg font-semibold font-serif">
+                Fast Home Delivery
+              </h1>
+              <p className="text-sm text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+
+          {/* BUTTONS */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-5">
+            <button className="bg-orange-400 text-white p-2 shadow rounded">
+              Reservation
+            </button>
+            <span className="bg-white text-orange-400 p-2 shadow text-center rounded">
+              123456789
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* RIGHT VIDEO */}
+      <div className="flex items-center justify-center">
+       <iframe
+  className="rounded-lg shadow w-full  mt-4 h-[500px]"
+  src="https://www.youtube.com/embed/0yDHioCtbN8"
+  title="YouTube video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+
+      </div>
+    </section>
+<hr />
+    <section >
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 p-6 gap-6">
+  
+  {/* CARD 1 */}
+  <div
+    className="relative h-64 rounded-lg overflow-hidden bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "url('https://images.unsplash.com/photo-1544025162-d76694265947')",
+    }}
+  >
+   
+
+
+    <div className=" p-4 text-white flex flex-col justify-end h-full">
+      <span className="text-2xl font-bold text-black">WEST CALIFORNIA BRANCH</span>
+      <p className="text-sm mb-2">
+        Fresh & Hot BBQ
+      </p>
+      <button className="bg-orange-400 text-white px-4 py-2 rounded w-fit">
+        Order Now
+      </button>
+    </div>
+  </div>
+
+  {/* CARD 2 */}
+  <div
+    className="relative h-64 rounded-lg overflow-hidden bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1')",
+    }}
+  >
+   
+
+    <div className=" p-4 text-white flex flex-col justify-end h-full">
+      <span className="text-2xl font-bold text-black">WEST CALIFORNIA BRANCH</span>
+      <p className="text-sm mb-2">
+        Fresh & Hot BBQ
+      </p>
+      <button className="bg-orange-400 text-white px-4 py-2 rounded w-fit">
+        Order Now
+      </button>
+    </div>
+  </div>
+
+  {/* CARD 3 */}
+  <div
+    className="relative h-64 rounded-lg overflow-hidden bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "url('https://images.unsplash.com/photo-1544025162-d76694265947')",
+    }}
+  >
+    
+
+  <div className=" p-4 text-white flex flex-col justify-end h-full">
+      <span className="text-2xl font-bold text-black">WEST CALIFORNIA BRANCH</span>
+      <p className="text-sm mb-2">
+        Fresh & Hot BBQ
+      </p>
+      <button className="bg-orange-400 text-white px-4 py-2 rounded w-fit">
+        Order Now
+      </button>
+    </div>
+  </div>
+
+</div>
+
+    </section>
+    <section>
+      <div className="relative flex items-center justify-center py-6">
+
+  {/* CENTER TITLE */}
+  <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold font-serif text-black">
+    OUR POPULAR MENU
+  </h2>
+ 
+   <div className="absolute right-2 sm:right-8 md:right-16">
+    <div className="relative w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14">
+      {/* ORANGE */}
+      <div className="absolute top-0 left-2 sm:left-3 w-5 h-5 sm:w-6 sm:h-6 
+      md:w-7 md:h-7 bg-orange-400 rounded-xl rotate-12"></div>
+
+      {/* BLUE */}
+      <div className="absolute top-2 sm:top-3 left-0 w-5 h-5 sm:w-6 sm:h-6
+       md:w-7 md:h-7 bg-teal-600 rounded-xl"></div>
+    </div>
+  </div>
+   </div>
+    </section>
+        
         </>
     )
 }
